@@ -1,0 +1,37 @@
+OBJECT ORIENTED PROGRAMMING
+
+#objects- basic entities with some properties and fns etc
+eg: object student, properties like name age adress contact no etc
+fns like change address, set roll no. etc
+
+#class: template of properties & fns (blueprint)
+copy of this template-object
+
+#access modifiers: kaha se kaha tak use kr skte hai:
+3types:
+public: class ke bahar use kr skte hai kahi bhi
+private: woh properties only visible to that class ke andar
+proetected
+
+by default all properties are private
+
+#getters and setters
+
+#constructors:
+default constructors- same name as class, no return type, no input arguments
+s1.student() <-|
+automatically created
+
+#this keyword= holds the address of current object
+
+#inbuilt constructors and deconstructors
+--> copy constructor: student s2(S1) (s2 is a copy of s1)
+--> copy assignment operator(=) s2=s1
+
+-->destructor: to deallocate memory, same name as class, no return type, no input arguments
+~ symbol used, only called once at the time of destroying, can be declared in pvt section
+
+#fraction class
+
+
+
