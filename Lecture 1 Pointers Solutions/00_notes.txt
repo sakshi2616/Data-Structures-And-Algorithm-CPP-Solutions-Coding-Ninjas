@@ -1,0 +1,29 @@
+POINTERS:
+*int i=10--> step 1:memory allocation
+step 2: memory location stored
+step 3: filling up that memory
+
+*table where memory location is stored- SYMBOL table
+*WAY TO FETCH STORAGE ADDRESS- "&i"--> tells address of i:
+cout<<&i<<endl;
+
+*variables that store addresses of other variables-->POINTERS
+SYNTAX- int *p=&i (meaning- p is an pointer of integer, and that integer is i)
+
+* derefrence operator- used to get integer using address
+
+#POINTER ARITHMETIC
+* integer pointer or char pointer or any type of pointer have same size(same purpose)
+* important in arrays(integers stored in continuous memory locations)
+* can compare also (p1<p2 or p1>p2)
+* on doing p++ --> char pointer moves 1 byte, int pointer moves 4 byte etc.
+
+#POINTERS AND ARRAYS 
+
+#CHARACTERS AND POINTERS 
+
+#POINTERS AND FUNCTIONS
+
+#DOUBLE POINTERS
+int **p2=&p 
+*double pointers store address of other pointers
