@@ -1,0 +1,54 @@
+#ADDRESS TYPECASTING
+* why int *p and not pointer p?
+we wont be able to know how many bytes to read when derefrencing
+integer is stored backward
+sign bit is at last bytes
+LITTLE ENDIAN AND BIG ENDIAN SYSTEMS
+mostly systems are little endians(imp)
+
+*void pointer can point to any kind of datatype
+
+#REFRENCE AND PASS BY VALUE
+int i=10 --> memory allocated for i
+int j=i --> diffrent memory allocated for j
+
+#DYNAMIC MEMORY LOCATION
+*solving the problem of variable sized array
+int a[n]--> bad practice
+
+2 tyes of memory- STACK AND HEAP
+heap memory(very large)>stack memory
+program starts with stack memory
+heap is large so we can make variable arrays there
+but we dont know how to allocate memory in heap
+in stack, memory is decided at compile time(static allocation)
+in heap, memory can depend on runtime also(dynamic allocation)
+
+*to allocate memory in heap, syntax: "new"
+new int; //4 bytes allocated at heap, but no name given to it 
+//new int actually gives address of new memory, so we use pointer
+int *p=new int;
+*p=10; //giving a number in that memory
+
+
+*when we dynamically allocate memory. memory is not automatically deallocated after exiting the scope of variable
+
+static memory- autorelease on basis of scope
+dynamic memory- manual release is required
+
+On deleting a dynamic memory, if the pointer value is not modified,
+then the pointer points to The same deleted memory location
+
+#DYNAMIC ALLOCATION OF 2D ARRAYS 
+*we will make a new array to store the addressed of all 
+the rows
+
+#MACROS AND GLOBAL VARIABLES
+* #define 
+
+#INLINE AND DEFAULT ARGMENTS
+inline function- jahan bhi fn use hoga wahan uski body wahan
+challi jayegi so no effect on runtime, compiling ke time pe hojayega
+functon
+
+#CONSTANT VARIABLES 
