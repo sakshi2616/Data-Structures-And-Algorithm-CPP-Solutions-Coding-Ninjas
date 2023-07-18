@@ -1,0 +1,23 @@
+#shallow and deep copy
+
+#copy constructor
+
+#initialisation list
+int a=5
+int const b=a 
+for constants initialisation should be done at time of creation
+
+constant variables ke lie we need initialisation list
+humare const datatypes ko default constructor mei jane se pehle hi initialise kr paye
+
+//constant functions
+(using fraction class of oops1)
+
+//static members
+static functions can only use static properties
+static functions dont have this keyword
+
+//operator overloading
+fractions class
+
+//dynamic array class
