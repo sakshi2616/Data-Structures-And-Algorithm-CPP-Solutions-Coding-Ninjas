@@ -1,0 +1,5 @@
+#treeessss
+
+-> primary data structure
+
+vectors: 

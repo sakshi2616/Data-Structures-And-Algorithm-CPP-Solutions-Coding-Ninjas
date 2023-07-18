@@ -1,0 +1,9 @@
+#queues
+abstract datatype
+fifo principle
+ 
+insert-> enqueue
+access the first element-> front
+delete-> dequeue
+size->size
+isempty

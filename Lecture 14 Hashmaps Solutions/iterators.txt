@@ -1,0 +1,2 @@
+to iterate thru a map
+most of data structures have inbuilt iterators

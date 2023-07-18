@@ -1,0 +1,22 @@
+#stacks and queues
+
+stacks: LIFO
+abstract data type(specific order of inseritng and deleting elements)
+same entry and exit point
+insert->push
+delete->pop
+access top element->peek/top
+size
+isempty
+
+recursion also uses stacks
+
+//templates
+T->TEMPORARY DATA type
+
+//.h files->header files
+no main in h files
+
+
+
+
