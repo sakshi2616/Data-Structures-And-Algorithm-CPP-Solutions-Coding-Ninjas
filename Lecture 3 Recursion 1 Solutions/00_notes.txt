@@ -1,0 +1,13 @@
+#INTRO
+recursion-function calling itself
+*segmentation fault!!
+CALL STACK
+
+#RECURSION AND PMI
+principle of mathematical induction
+to prove: f(n) is true for al n
+3 steps:
+1) base: prove f(0) or f(1) is true
+2)indcution hypothesis: assume that f(i)is true for all i<=k
+3)induction: prove f(k+1)is true
+
